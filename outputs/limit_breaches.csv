@@ -1,0 +1,8 @@
+limit_id,dimension,metric,driver,actual,threshold,unit,utilisation_pct,status,provenance
+L-01,addr_state,single_bucket_pct,CA,13.275,12.0,pct_of_book,110.6,BREACH,ILLUSTRATIVE - set by us
+L-02,purpose,single_bucket_pct,debt_consolidation,58.422,50.0,pct_of_book,116.8,BREACH,ILLUSTRATIVE - set by us
+L-03,addr_state,top_n_pct,top_10,58.103,55.0,pct_of_book,105.6,BREACH,ILLUSTRATIVE - set by us
+L-04,grade,group_pct,"E,F,G",6.475,8.0,pct_of_book,80.9,PASS,ILLUSTRATIVE - set by us
+L-05,purpose,hhi_normalised,n=14 raw=4074.0 floor=714.3,0.362,0.3,index,120.6,BREACH,ILLUSTRATIVE threshold
+L-06,addr_state,hhi_normalised,n=50 raw=507.1 floor=200.0,0.031,0.15,index,20.9,PASS,ILLUSTRATIVE threshold
+L-07,grade,hhi_normalised,n=7 raw=2363.3 floor=1428.6,0.109,0.25,index,43.6,PASS,ILLUSTRATIVE threshold
