@@ -1,0 +1,8 @@
+limit_id,dimension,metric,bucket,operator,threshold,unit,rationale,provenance
+L-01,addr_state,single_bucket_pct,*,<=,12.0,pct_of_book,No single state may exceed 12% of outstanding exposure. Geographic shocks (state-level unemployment/housing) correlate within state; a cap forces diversification.,ILLUSTRATIVE - set by us. In a real bank this comes top-down from a board-approved Risk Appetite Statement.
+L-02,purpose,single_bucket_pct,*,<=,50.0,pct_of_book,No single loan purpose may exceed 50% of outstanding exposure. Purpose proxies borrower motivation and correlates with default behaviour.,ILLUSTRATIVE - set by us.
+L-03,addr_state,top_n_pct,10,<=,55.0,pct_of_book,Top-10 states may not exceed 55% of outstanding exposure. Companion to HHI; interviewers and committees recognise Top-N without explanation.,ILLUSTRATIVE - set by us.
+L-04,grade,group_pct,"E,F,G",<=,8.0,pct_of_book,Sub-investment-grade equivalent (LC grades E/F/G) capped at 8% of book. These grades carry the highest observed loss rates.,ILLUSTRATIVE - set by us.
+L-05,purpose,hhi_normalised,*,<=,0.30,index,Purpose concentration measured on cardinality-normalised HHI. HHI* = (HHI - 10000/n)/(10000 - 10000/n); 0 = perfectly balanced.,ILLUSTRATIVE threshold. The HHI* correction itself is arithmetic; only the 0.30 line is our judgement.
+L-06,addr_state,hhi_normalised,*,<=,0.15,index,Geographic concentration on normalised HHI. Tighter than purpose because geography is the dimension we can actually steer via origination policy.,ILLUSTRATIVE threshold.
+L-07,grade,hhi_normalised,*,<=,0.25,index,Credit-quality mix concentration on normalised HHI. A book bunched into one grade has no risk-return ladder.,ILLUSTRATIVE threshold.
