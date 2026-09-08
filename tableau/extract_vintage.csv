@@ -1,0 +1,37 @@
+vintage_yr,n_loans,metric,value,metric_label,observability_status
+2007,603,naive_default_pct,26.2,Naive default % (THE LIE),OBSERVED
+2008,2393,naive_default_pct,20.73,Naive default % (THE LIE),OBSERVED
+2009,5281,naive_default_pct,13.69,Naive default % (THE LIE),OBSERVED
+2010,12537,naive_default_pct,14.01,Naive default % (THE LIE),OBSERVED
+2011,21721,naive_default_pct,15.18,Naive default % (THE LIE),OBSERVED
+2012,53367,naive_default_pct,16.2,Naive default % (THE LIE),OBSERVED
+2013,134814,naive_default_pct,15.59,Naive default % (THE LIE),OBSERVED
+2014,235629,naive_default_pct,17.47,Naive default % (THE LIE),OBSERVED
+2015,421095,naive_default_pct,18.0,Naive default % (THE LIE),OBSERVED
+2016,434407,naive_default_pct,15.71,Naive default % (THE LIE),OBSERVED
+2017,443579,naive_default_pct,8.83,Naive default % (THE LIE),OBSERVED
+2018,495242,naive_default_pct,1.79,Naive default % (THE LIE),OBSERVED
+2007,603,still_current_pct,0.0,Still Current % (the tell),OBSERVED
+2008,2393,still_current_pct,0.0,Still Current % (the tell),OBSERVED
+2009,5281,still_current_pct,0.0,Still Current % (the tell),OBSERVED
+2010,12537,still_current_pct,0.0,Still Current % (the tell),OBSERVED
+2011,21721,still_current_pct,0.0,Still Current % (the tell),OBSERVED
+2012,53367,still_current_pct,0.0,Still Current % (the tell),OBSERVED
+2013,134814,still_current_pct,0.0,Still Current % (the tell),OBSERVED
+2014,235629,still_current_pct,5.06,Still Current % (the tell),OBSERVED
+2015,421095,still_current_pct,10.28,Still Current % (the tell),OBSERVED
+2016,434407,still_current_pct,30.86,Still Current % (the tell),OBSERVED
+2017,443579,still_current_pct,59.03,Still Current % (the tell),OBSERVED
+2018,495242,still_current_pct,86.26,Still Current % (the tell),OBSERVED
+2007,603,mob12_default_pct,9.62,MOB-12 matched default % (the truth),OBSERVED
+2008,2393,mob12_default_pct,9.15,MOB-12 matched default % (the truth),OBSERVED
+2009,5281,mob12_default_pct,6.12,MOB-12 matched default % (the truth),OBSERVED
+2010,12537,mob12_default_pct,4.41,MOB-12 matched default % (the truth),OBSERVED
+2011,21721,mob12_default_pct,4.03,MOB-12 matched default % (the truth),OBSERVED
+2012,53367,mob12_default_pct,5.13,MOB-12 matched default % (the truth),OBSERVED
+2013,134814,mob12_default_pct,4.23,MOB-12 matched default % (the truth),OBSERVED
+2014,235629,mob12_default_pct,4.66,MOB-12 matched default % (the truth),OBSERVED
+2015,421095,mob12_default_pct,5.27,MOB-12 matched default % (the truth),OBSERVED
+2016,434407,mob12_default_pct,6.31,MOB-12 matched default % (the truth),OBSERVED
+2017,443579,mob12_default_pct,5.66,MOB-12 matched default % (the truth),OBSERVED
+2018,495242,mob12_default_pct,,MOB-12 matched default % (the truth),NOT OBSERVED - cohort too young for MOB 12

@@ -1,0 +1,43 @@
+extract,grain,field,dtype,nulls
+extract_vintage.csv,"one row per (vintage_yr, metric)",vintage_yr,int64,0
+extract_vintage.csv,"one row per (vintage_yr, metric)",n_loans,int64,0
+extract_vintage.csv,"one row per (vintage_yr, metric)",metric,object,0
+extract_vintage.csv,"one row per (vintage_yr, metric)",value,float64,1
+extract_vintage.csv,"one row per (vintage_yr, metric)",metric_label,object,0
+extract_vintage.csv,"one row per (vintage_yr, metric)",observability_status,object,0
+extract_concentration.csv,"one row per (dimension, bucket)",dimension,object,0
+extract_concentration.csv,"one row per (dimension, bucket)",bucket,object,0
+extract_concentration.csv,"one row per (dimension, bucket)",rank_by_exposure,int64,0
+extract_concentration.csv,"one row per (dimension, bucket)",n_loans,int64,0
+extract_concentration.csv,"one row per (dimension, bucket)",exposure_mm,float64,0
+extract_concentration.csv,"one row per (dimension, bucket)",pct_of_book,float64,0
+extract_concentration.csv,"one row per (dimension, bucket)",cumulative_pct,float64,0
+extract_concentration.csv,"one row per (dimension, bucket)",n_buckets,int64,0
+extract_concentration.csv,"one row per (dimension, bucket)",hhi_raw,float64,0
+extract_concentration.csv,"one row per (dimension, bucket)",hhi_floor,float64,0
+extract_concentration.csv,"one row per (dimension, bucket)",hhi_normalised,float64,0
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",ewi_id,object,0
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",indicator,object,0
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",scope,object,0
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",vintage_yr,int64,0
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",value,float64,1
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",baseline,float64,0
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",ratio_or_drift,float64,1
+extract_ewi.csv,"one row per (ewi_id, scope, vintage_yr)",status,object,0
+extract_limits.csv,one row per limit_id,limit_id,object,0
+extract_limits.csv,one row per limit_id,dimension,object,0
+extract_limits.csv,one row per limit_id,metric,object,0
+extract_limits.csv,one row per limit_id,driver,object,0
+extract_limits.csv,one row per limit_id,actual,float64,0
+extract_limits.csv,one row per limit_id,threshold,float64,0
+extract_limits.csv,one row per limit_id,unit,object,0
+extract_limits.csv,one row per limit_id,utilisation_pct,float64,0
+extract_limits.csv,one row per limit_id,status,object,0
+extract_limits.csv,one row per limit_id,provenance,object,0
+extract_stress.csv,one row per scenario_id,scenario_id,object,0
+extract_stress.csv,one row per scenario_id,scenario,object,0
+extract_stress.csv,one row per scenario_id,pd_multiplier,float64,0
+extract_stress.csv,one row per scenario_id,expected_loss_mm,float64,0
+extract_stress.csv,one row per scenario_id,loss_rate_pct,float64,0
+extract_stress.csv,one row per scenario_id,vs_base_mm,float64,0
+extract_stress.csv,one row per scenario_id,provenance,object,0

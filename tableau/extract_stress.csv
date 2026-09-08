@@ -1,0 +1,4 @@
+scenario_id,scenario,pd_multiplier,expected_loss_mm,loss_rate_pct,vs_base_mm,provenance
+S-00,Base,1.0,548.1,5.76,0.0,OBSERVED
+S-01,Adverse,1.5,822.2,8.65,274.1,DATA-ANCHORED
+S-02,Severe,2.33,1277.1,13.43,729.0,DATA-ANCHORED
